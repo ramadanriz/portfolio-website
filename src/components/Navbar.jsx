@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom'
 import menuLinks from '../constant'
 import { BiMenuAltLeft } from 'react-icons/bi'
 import { BsMoonStars, BsSun } from 'react-icons/bs'
-import Container from './Container'
 
 const Navbar = () => {
     const [theme, setTheme] = useState(
@@ -25,7 +24,7 @@ const Navbar = () => {
     }, [theme])
 
     return (
-        <div className='navbar bg-base-100 fixed top-0 left-0 z-50 py-2 px-8 md:py-4 md:px-16 lg:px-32 xl:px-72'>
+        <div className='navbar bg-base-100 fixed top-0 left-0 z-50 py-2 px-8 md:py-4 md:px-16 lg:px-32 xl:px-72 shadow-md'>
 
             <div className="navbar-start sm:hidden">
                 <div className="dropdown">
