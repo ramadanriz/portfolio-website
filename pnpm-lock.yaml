@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/rubik':
+    specifier: ^5.0.7
+    version: 5.0.7
+  '@fontsource/playfair-display':
+    specifier: ^5.0.5
+    version: 5.0.5
   '@fontsource/rubik':
     specifier: ^5.0.5
     version: 5.0.5
@@ -537,6 +543,14 @@ packages:
     resolution: {integrity: sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource-variable/rubik@5.0.7:
+    resolution: {integrity: sha512-vxJfk+iQg0ojkx0r/3lYdr+bfYod+mOuyREapIIz1mxrOmC1ghG76wwQmuhvM0BKsvqbPDECy+GlHhta3mfljw==}
+    dev: false
+
+  /@fontsource/playfair-display@5.0.5:
+    resolution: {integrity: sha512-IeFiP3TAGXX3TAabYfuSkmfzMFNSXhZ1td0wWgcZAcQ+DeZJWK1spw7AHt1ePM5EY/vu13JxVl+4vrGi18VMhg==}
+    dev: false
 
   /@fontsource/rubik@5.0.5:
     resolution: {integrity: sha512-ggCJFmid6AcRmF/9xFp8wzg7Pop3Bg7YxrysXdnvAgvsolOzWb2M+8IE2JO0ApghsXlt/jogg1/g/J0MI1raQQ==}

@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className='container md:px-20 lg:px-40 mx-auto'>
+      <main className='relative py-6 px-8 mx-auto mt-16 md:px-16 md:mt-14 lg:container lg:px-32 xl:px-72'>
         <Routes>
           <Route path="/" element={ <Home /> } />
           <Route path="/about" element={ <About /> } />
