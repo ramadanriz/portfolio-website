@@ -1,9 +1,9 @@
-import heroImg from '../assets/avatar.png'
+import heroImg from '../assets/avatar-circle.png'
 
 const Avatar = () => {
   return (
     <div className="avatar">
-        <div className='rounded-full w-64 h-64 md:h-auto'>
+        <div className='w-64 h-64 md:h-auto'>
           <img src={heroImg} alt="me" />
         </div>
       </div>

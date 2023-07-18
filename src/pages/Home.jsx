@@ -4,7 +4,7 @@ import Avatar from '../components/Avatar'
 
 const Home = () => {
   return (
-    <>
+    <div className='flex flex-col-reverse gap-4 items-center md:flex-row md:gap-8 md:justify-around min-h-[65vh] md:min-h-[80vh]'>
       <div className="space-y-2 text-center md:text-left">
         <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl">Rizky Ramadhani</h1>
         <TypewritedDesc />
@@ -13,7 +13,7 @@ const Home = () => {
       </div>
 
       <Avatar />
-    </>    
+    </div>    
   )
 }
 
