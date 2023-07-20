@@ -5,7 +5,7 @@ const menuLinks = [
     { name: "Home", route: "/" },
     { name: "About Me", route: "/about" },
     { name: "Tech", route: "/tech" },
-    { name: "Github", route: "/github" },
+    { name: "Projects", route: "/projects" },
 ]
 
 const techStacks = [
@@ -33,6 +33,6 @@ const techStacks = [
         name: "MySQL",
         icon: <SiMysql />
     }
-]
+] 
 
 export { menuLinks, techStacks }

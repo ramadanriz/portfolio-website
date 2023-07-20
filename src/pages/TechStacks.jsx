@@ -1,5 +1,5 @@
 import SectionTitle from '../components/SectionTitle'
-import Card from '../components/skills/Card'
+import Card from '../components/techStacks/Card'
 
 const Skills = () => {
   return (

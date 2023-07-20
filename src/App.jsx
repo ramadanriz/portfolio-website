@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar"
 import Home from './pages/Home'
 import About from './pages/About'
-import Github from './pages/Github'
+import Projects from './pages/Projects'
 import TechStacks from './pages/TechStacks'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             <Route path="/" element={ <Home /> } />
             <Route path="/about" element={ <About /> } />
             <Route path="/tech" element={ <TechStacks /> } />
-            <Route path="/github" element={ <Github /> } />
+            <Route path="/projects" element={ <Projects /> } />
           </Routes>
       </main>
     </>
