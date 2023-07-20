@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react'
 import { FiGithub } from 'react-icons/fi'
-import { AiOutlineStar } from 'react-icons/ai'
-import { PiGitForkLight } from 'react-icons/pi'
 
 const Card = () => {
   const [data, setData] = useState([])
@@ -31,7 +29,7 @@ const Card = () => {
                 <div className="sm:flex sm:items-center sm:gap-2">
                   <div className="flex items-center gap-1">
                     <FiGithub />
-                    <a href={item.link} className="text-xs font-medium hover:underline">{item.repo}</a>
+                    <a href={item.link} className="text-xs font-medium link link-hover">{item.repo}</a>
                   </div>
                 </div>
 

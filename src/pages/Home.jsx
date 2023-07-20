@@ -1,6 +1,7 @@
 import TypewritedDesc from '../components/TypewritedDesc'
 import DownloadResumeButton from '../components/DownloadResumeButton'
 import Avatar from '../components/Avatar'
+import heroImg from '../assets/avatar-circle.png'
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
         <DownloadResumeButton />
       </div>
 
-      <Avatar />
+      <Avatar>
+        <img src={heroImg} alt="me" />
+      </Avatar>
     </div>    
   )
 }

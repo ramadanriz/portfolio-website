@@ -33,6 +33,11 @@ const techStacks = [
         name: "MySQL",
         icon: <SiMysql />
     }
-] 
+]
 
-export { menuLinks, techStacks }
+const aboutContents = [
+    `Hello, world! My name is Rizky Ramadhani. I'm a Junior Web Developer, and Computer Science Student. I live in Jombang, East Java, Indonesia.`,
+    `I have experience as a Junior Web Developer. I have an interest in a career as a Full Stack Developer. I have learned a lot of new technologies in the past few years by myself on the Internet.`,
+]
+
+export { menuLinks, techStacks, aboutContents }
