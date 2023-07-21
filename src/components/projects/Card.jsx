@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { FiGithub } from 'react-icons/fi'
+import { GoLinkExternal } from 'react-icons/go'
 
 const Card = () => {
   const [data, setData] = useState([])
@@ -22,26 +23,16 @@ const Card = () => {
     <div className='grid grid-cols-1 gap-6 mt-6 md:grid-cols-2'>
       {data.map((item, index) => {
         return (
-          <article className="bg-base-100 border border-base-content rounded-xl p-4 sm:p-6" key={index}>
-            <div className="flex items-start">
-              <div>
-
-                <div className="sm:flex sm:items-center sm:gap-2">
-                  <div className="flex items-center gap-1">
-                    <FiGithub />
-                    <a href={item.link} className="text-xs font-medium link link-hover">{item.repo}</a>
-                  </div>
-                </div>
-
-                <p className="mt-1 text-sm">{item.description}</p>
-
-                <strong className="mt-4 rounded border border-indigo-500 bg-indigo-500 px-3 py-1.5 text-[10px] font-medium text-white">
-                  {item.language}
-                </strong>
-                
+          <div className="card border bg-base-200 border-base-300 rounded-md shadow-sm" key={index}>
+            <div className="card-body">
+              <div className='flex justify-between'>
+                <a href={item.link} className='card-title link link-hover text-sm' target='_blank' rel="noreferrer"><FiGithub /> {item.repo}</a>
+                <a href={item.website} className='card-title link link-hover text-sm' target='_blank' rel="noreferrer"><GoLinkExternal /></a>
               </div>
+              <div className={`badge badge-neutral`}>{item.language}</div>
+              <p>{item.description}</p>
             </div>
-          </article>
+          </div>
         )
       })}
     </div>
