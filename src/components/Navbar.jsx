@@ -24,7 +24,7 @@ const Navbar = () => {
     }, [theme])
 
     return (
-        <div className='navbar bg-base-200 fixed top-0 left-0 z-50 py-2 px-8 md:py-2 md:px-16 lg:px-32 xl:px-72 border-b border-base-300'>
+        <div className='navbar bg-base-200 fixed top-0 left-0 z-50 py-2 px-8 md:py-2 lg:px-32 xl:px-72 border-b border-base-300'>
 
             <div className="navbar-start sm:hidden">
                 <div className="dropdown">
