@@ -68,6 +68,8 @@ const companies = [
       ],
       period: "Februari 2022 - Agustus 2022",
     },
-  ];
+]
 
-export { menuLinks, techStacks, aboutContents, educations, companies }
+const baseUrl = 'https://gh-pinned-repos.egoist.dev/?username=ramadanriz'
+
+export { menuLinks, techStacks, aboutContents, educations, companies, baseUrl }
