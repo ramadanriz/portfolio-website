@@ -14,7 +14,7 @@ const Item = ({ icon, name }) => {
 }
 
 Item.propTypes = {
-    icon: PropTypes.string,
+    icon: PropTypes.object,
     name: PropTypes.string
 }
 
