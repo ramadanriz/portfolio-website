@@ -2,10 +2,22 @@ import { FaJs, FaPhp, FaReact, FaLaravel } from 'react-icons/fa6'
 import { SiTailwindcss, SiMysql } from 'react-icons/si'
 
 const menuLinks = [
-    { name: "Home", route: "/" },
-    { name: "About", route: "/about" },
-    { name: "Tech", route: "/tech" },
-    { name: "Projects", route: "/projects" },
+    { 
+        name: "Home",
+        route: "/"
+    },
+    { 
+        name: "About",
+        route: "/about"
+    },
+    { 
+        name: "Tech",
+        route: "/tech"
+    },
+    { 
+        name: "Projects",
+        route: "/projects" 
+    }
 ]
 
 const techStacks = [
