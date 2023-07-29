@@ -17,7 +17,11 @@ const menuLinks = [
     { 
         name: "Projects",
         route: "/projects" 
-    }
+    },
+    { 
+        name: "Contact",
+        route: "/contacts" 
+    },
 ]
 
 const techStacks = [
@@ -82,6 +86,24 @@ const companies = [
     },
 ]
 
+const contacts = [
+    {
+        name: 'Github',
+        username: 'ramadanriz',
+        link: 'https://github.com/ramadanriz'
+    },
+    {
+        name: 'Linkedin',
+        username: 'Rizky Ramadhani',
+        link: 'https://www.linkedin.com/in/ramadhanriz/'
+    },
+    {
+        name: 'Showwcase',
+        username: 'Rizky Ramadhani',
+        link: 'https://ramadanriz.showwcase.com/'
+    },
+]
+
 const baseUrl = 'https://gh-pinned-repos.egoist.dev/?username=ramadanriz'
 
-export { menuLinks, techStacks, aboutContents, educations, companies, baseUrl }
+export { menuLinks, techStacks, aboutContents, educations, companies, contacts, baseUrl }
