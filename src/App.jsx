@@ -3,7 +3,6 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import TechStacks from './pages/TechStacks'
-import Contacts from './pages/Contacts'
 import Container from './components/Container'
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
         <Route path="/about" element={ <About /> } />
         <Route path="/tech" element={ <TechStacks /> } />
         <Route path="/projects" element={ <Projects /> } />
-        <Route path="/contacts" element={ <Contacts /> } />
       </Routes>
     </Container>
   )

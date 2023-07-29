@@ -17,11 +17,7 @@ const menuLinks = [
     { 
         name: "Projects",
         route: "/projects" 
-    },
-    { 
-        name: "Contact",
-        route: "/contacts" 
-    },
+    }
 ]
 
 const techStacks = [
