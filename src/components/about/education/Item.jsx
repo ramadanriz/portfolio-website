@@ -15,10 +15,10 @@ const Item = ({ url, title, period, role }) => {
 }
 
 Item.propTypes = {
-    url: PropTypes.string,
-    title: PropTypes.string,
-    period: PropTypes.string,
-    role: PropTypes.string,
+  url: PropTypes.string,
+  title: PropTypes.string,
+  period: PropTypes.string,
+  role: PropTypes.string,
 }
 
 export default Item

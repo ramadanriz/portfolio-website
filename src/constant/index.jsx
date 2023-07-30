@@ -1,4 +1,4 @@
-import { FaJs, FaPhp, FaReact, FaLaravel } from 'react-icons/fa6'
+import { FaJs, FaPhp, FaReact, FaLaravel, FaGithub, FaLinkedin } from 'react-icons/fa6'
 import { SiTailwindcss, SiMysql } from 'react-icons/si'
 
 const menuLinks = [
@@ -76,7 +76,7 @@ const companies = [
         "Building layouts and the structure of web pages.",
         "Integrating with the back-end to fetch data from the server.",
         "Developing and implementing business logic and data processing algorithms.",
-        "Providing an Application Programming Interface (API) to communicate with the front-end."
+        "Providing an API to communicate with the front-end."
       ],
       period: "Februari 2022 - Agustus 2022",
     },
@@ -84,20 +84,13 @@ const companies = [
 
 const contacts = [
     {
-        name: 'Github',
-        username: 'ramadanriz',
+        icon: <FaGithub />,
         link: 'https://github.com/ramadanriz'
     },
     {
-        name: 'Linkedin',
-        username: 'Rizky Ramadhani',
+        icon: <FaLinkedin />,
         link: 'https://www.linkedin.com/in/ramadhanriz/'
-    },
-    {
-        name: 'Showwcase',
-        username: 'Rizky Ramadhani',
-        link: 'https://ramadanriz.showwcase.com/'
-    },
+    }
 ]
 
 const baseUrl = 'https://gh-pinned-repos.egoist.dev/?username=ramadanriz'
