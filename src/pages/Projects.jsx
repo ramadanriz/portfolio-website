@@ -1,24 +1,24 @@
-import { useState, useEffect } from 'react'
-import axios from 'axios'
-import { baseUrl } from '../constant'
-import SectionTitle from "../components/SectionTitle"
-import List from '../components/projects/List'
-import { Loading } from '../components/Loading'
+import { useState, useEffect } from "react";
+import axios from "axios";
+import { baseUrl } from "../constant";
+import SectionTitle from "../components/SectionTitle";
+import List from "../components/projects/List";
+import { Loading } from "../components/Loading";
 
 const Projects = () => {
-  const [project, setProject] = useState()
-  const [isLoading, setIsLoading] = useState(true)
+  const [project, setProject] = useState();
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     axios.get(baseUrl).then((response) => {
-      setProject(response.data)
-      setIsLoading(false)
-    })
-  }, [])
+      setProject(response.data);
+      setIsLoading(false);
+    });
+  }, []);
 
   return (
-    <div className='mt-2'>
-      {isLoading ? ( 
+    <div className="mt-2">
+      {isLoading ? (
         <Loading />
       ) : (
         <>
@@ -29,7 +29,7 @@ const Projects = () => {
         </>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
