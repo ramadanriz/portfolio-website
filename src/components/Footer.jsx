@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
       <aside className="mx-auto items-center grid-flow-col">
-        <p>© 2023 Rizky Ramadhani - Portfolio</p>
+        <p>© {new Date().getFullYear()} Rizky Ramadhani - Portfolio</p>
       </aside>
       <nav className="mx-auto md:place-self-center md:justify-self-end">
         <div className="grid grid-flow-col gap-4">
