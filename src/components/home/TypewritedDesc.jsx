@@ -6,7 +6,7 @@ const TypewritedDesc = () => {
           <Typewriter
             words={[
               'Junior Web Developer',
-              'Computer Science Student'
+              'Bachelor of Computer Science '
             ]}
             loop={0}
             cursor
