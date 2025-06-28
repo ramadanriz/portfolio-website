@@ -1,5 +1,4 @@
-import { GrLinkedin } from "react-icons/gr";
-import { FaGithub } from "react-icons/fa";
+import { contacts } from "../constant";
 
 const Footer = () => {
   return (
@@ -9,12 +8,18 @@ const Footer = () => {
       </aside>
       <nav className="mx-auto md:place-self-center md:justify-self-end">
         <div className="grid grid-flow-col gap-4">
-          <a href="https://www.linkedin.com/in/ramadanriz/" target="_blank" rel="noreferrer">
-            <GrLinkedin className="text-2xl" />
-          </a>
-          <a href="https://github.com/ramadanriz" target="_blank" rel="noreferrer">
-            <FaGithub className="text-2xl" />
-          </a>
+          {contacts.map((contact, index) => (
+            <>
+              <a
+                href={contact.link}
+                target="_blank"
+                rel="noreferrer"
+                key={index}
+              >
+                <div className="text-2xl">{contact.icon}</div>
+              </a>
+            </>
+          ))}
         </div>
       </nav>
     </footer>

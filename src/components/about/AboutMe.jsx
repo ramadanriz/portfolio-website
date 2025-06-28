@@ -1,7 +1,7 @@
-import { aboutContents } from '../../constant'
-import heroImg from '../../assets/real-face.jpg'
-import Avatar from '../Avatar'
-import SectionTitle from '../SectionTitle'
+import { aboutContents } from "../../constant";
+import heroImg from "../../assets/real-face.jpg";
+import Avatar from "../Avatar";
+import SectionTitle from "../SectionTitle";
 
 const AboutMe = () => {
   return (
@@ -13,14 +13,14 @@ const AboutMe = () => {
         <div className="space-y-2 text-center md:text-left">
           <SectionTitle>About Me</SectionTitle>
           {aboutContents.map((content, index) => (
-            <p className='text-justify text-light-fg-secondary' key={index}>
+            <p className="text-justify text-light-fg-secondary" key={index}>
               {content}
             </p>
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
